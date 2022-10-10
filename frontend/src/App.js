@@ -42,6 +42,8 @@ function App() {
         hasError = true;
       }
 
+
+    
       const responseData = await response.json();
 
       if (hasError) {
