@@ -5,6 +5,7 @@ import NewProduct from './components/Products/NewProduct';
 import ProductList from './components/Products/ProductList';
 import './App.css';
 
+
 function App() {
   const [loadedProducts, setLoadedProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
